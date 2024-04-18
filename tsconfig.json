@@ -6,12 +6,15 @@
     "isolatedModules": true,
     "jsx": "react",
     "declaration": true,
-    "lib": ["es6"],
+    "lib": [
+      "es6"
+    ],
     "moduleResolution": "node",
     "removeComments": true,
     "strict": true,
     "target": "esnext",
-    "outDir": "dist"
+    "outDir": "dist",
+    "moduleDetection": "force"
   },
   "exclude": [
     "node_modules",

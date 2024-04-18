@@ -88,7 +88,7 @@ const buildRequestOpenUri = ({
     const Component = await shouldCreateComponent(data);
     Object.assign(cache, { [uri]: Component });
     return shouldComplete(uri);
-  } catch (e) {
+  } catch (e: any) {
     Object.assign(cache, { [uri]: null });
     if (typeof e === 'string') {
       return shouldComplete(uri, new Error(e));

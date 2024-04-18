@@ -4,7 +4,7 @@
   "description": "⚛️  🌌 Inter-dimensional Portals for React Native. 👽 🖖",
   "main": "dist",
   "scripts": {
-    "build": "rm -rf dist ; yarn && yarn tsc && rm -rf node_modules"
+    "build": "rm -rf dist ; yarn && yarn tsc"
   },
   "keywords": [
     "react-native",
@@ -19,34 +19,33 @@
   "license": "MIT",
   "private": false,
   "devDependencies": {
-    "@babel/cli": "^7.13.10",
-    "@babel/core": "^7.13.10",
+    "@babel/cli": "^7.24.1",
+    "@babel/core": "^7.24.4",
     "@babel/polyfill": "^7.12.1",
-    "@babel/preset-env": "^7.13.10",
-    "@babel/preset-react": "^7.12.13",
-    "@babel/preset-typescript": "^7.13.0",
-    "@types/app-root-path": "^1.2.4",
+    "@babel/preset-env": "^7.24.4",
+    "@babel/preset-react": "^7.24.1",
+    "@babel/preset-typescript": "^7.24.1",
+    "@types/app-root-path": "^1.2.8",
     "@types/axios": "^0.14.0",
-    "@types/react": "^17.0.3",
-    "@types/react-native": "^0.63.51",
-    "@typescript-eslint/eslint-plugin": "^4.17.0",
-    "@typescript-eslint/parser": "^4.17.0",
-    "app-root-path": "^3.0.0",
-    "eslint": "^7.22.0",
-    "eslint-config-satya164": "^3.1.9",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-jest": "^24.3.1",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-react": "^7.22.0",
-    "eslint-plugin-react-hooks": "^4.2.0",
-    "eslint-plugin-react-native": "^3.10.0",
-    "react": "^17.0.1",
-    "react-native": "^0.64.0",
-    "typescript": "^4.2.3"
+    "@types/react": "^18.2.79",
+    "@typescript-eslint/eslint-plugin": "^7.7.0",
+    "@typescript-eslint/parser": "^7.7.0",
+    "app-root-path": "^3.1.0",
+    "eslint": "^9.0.0",
+    "eslint-config-satya164": "^3.2.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jest": "^28.2.0",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-native": "^4.1.0",
+    "react": "^18.2.0",
+    "react-native": "^0.73.7",
+    "typescript": "^5.4.5"
   },
   "dependencies": {
-    "@babel/runtime": "^7.13.10",
-    "axios": "^0.21.1",
-    "react-error-boundary": "^3.1.1"
+    "@babel/runtime": "^7.24.4",
+    "axios": "^1.6.8",
+    "react-error-boundary": "^4.0.13"
   }
 }

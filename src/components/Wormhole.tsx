@@ -36,14 +36,13 @@ export default function Wormhole({
           return setComponent(() => Component);
         }
         throw new Error(
-          `[Wormhole]: Expected function shouldOpenWormhole, encountered ${
-            typeof shouldOpenWormhole
+          `[Wormhole]: Expected function shouldOpenWormhole, encountered ${typeof shouldOpenWormhole
           }.`
         );
       } catch (e) {
         setComponent(() => null);
-        setError(e);
-        onError(e);
+        setError(e as Error);
+        onError(e as Error);
         return forceUpdate();
       }
     })();
