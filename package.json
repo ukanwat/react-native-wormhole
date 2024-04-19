@@ -1,5 +1,5 @@
 {
-  "name": "react-native-wormhole",
+  "name": "@ukanwat/react-native-wormhole",
   "version": "0.2.0",
   "description": "⚛️  🌌 Inter-dimensional Portals for React Native. 👽 🖖",
   "main": "dist",
